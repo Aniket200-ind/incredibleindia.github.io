@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i');
+
+body {
+	margin: 0;
+}
+header {
+	background: black;
+    height: 70px;
+    color: yellow;
+    padding: 10px 0px 0px 39px;
+    
+    }
+header h1 {
+	display: inline;
+	font-family: 'Dancing Script', cursive;
+    float:left; 
+    margin-right: 10px; 
+    font-size: 29px
+}
+
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: chocolate;
+	float: left;
+
+}
+
+nav ul li a {
+	color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+.homeyellow {
+	background-color: red;
+    padding: 30px 10px 39px 14px;
+
+
+}
+.divider{
+	background-color: red;
+	height: 6px
+}
+.homeblack:hover {
+	background-color: indigo;
+	padding: 30px 10px 33px 10px;
+	
+}
+.fwimage1 {
+	background-image: url(images/ind.jpg);
+	position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.homesub {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 9% 5% 0% 55%;
+	font-size: 30px;
+	color: chocolate;
+}
+.homeind {
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 60%;
+	font-size: 39px;
+	color: white;
+	background-color: rgba(0,0,4,0.5);
+	display: inline;
+}
+.homeview {
+	font-family: 'Acme', sans-serif;
+	margin: 0% 0% 0% 55%;
+	color: green;
+	font-size: 32px;
+}
+.homeani:hover
+{
+	background: coral;
+	color: pink;
+}

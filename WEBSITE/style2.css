@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700');
+
+
+
+
+header {
+	background: #ff80ff;
+    height: 70px;
+    padding: 29px 0px 0px 39px;
+    
+}
+
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+}
+
+nav ul li a {
+	color: #e6e600;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 35px;
+    padding: 10px;
+    font-family: 'lobster' sans-serif; 
+}
+
+.divider{
+	background-color: #4dc3ff;
+	height: 7px;
+}
+
+.homechoco{
+	background-color: #4dc3ff;
+	padding: 46px 15px 17px 28px;
+
+}
+
+.homewhite:hover {
+	background-color: #336600;
+	color:  #ffa31a;
+	padding: 46px 15px 13px 28px;
+
+}
+ol {
+	color: green;
+	font-family: 'Cinzel', serif;
+	font-size: 40px;
+}
+body{
+	background-color: #ffff66;
+}
+p {
+	margin-left: 200px;
+	font-size: 20px;
+	font-family: 'Monda', sans-serif;
+}
+
+img {
+	margin-left: 100px;
+}
+
+
+a {
+	color: #004d00;
+    text-decoration: none;
+    font-size: 30px;
+ }
+ a:hover {
+ 	color: #4dff4d;
+ 	background: #5900b3;
+ }

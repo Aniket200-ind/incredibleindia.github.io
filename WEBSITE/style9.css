@@ -1,0 +1,18 @@
+h1 {
+	margin: 0;
+	padding: 0;
+	color: olive;
+	font-size: 44px;
+
+}
+body {
+	background: mediumspringgreen;
+}
+li {
+	font-size: 39px;
+	color: slateblue;
+}
+
+p {
+	font-size: 28px;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+
+body {
+	background-image: url(images/m.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 100px;
+	padding: 10px;
+
+}
+.loginbox{
+      width: 320px;
+      height: 420px;
+      background: rgba(0,0,0,.4);
+      color: #fff;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      padding: 70px 30px;
+
+
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -5%;
+	left: calc(90% - 50%);
+
+}
+h1 {
+	margin: 0;
+	padding: 0 0 0 0px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50;
+	font-weight: bold;
+	color:  #bbff33;
+
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	color: #33ffff;
+	padding: 10px 0;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	transition: .5s;
+}
+.loginbox .inputbox input:focus ~ p,
+.loginbox .inputbox input:valid ~ p
+{
+	top: -10px;
+	left: 0;
+	font-size: 12px;
+}	
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 2px solid #e6e600;
+	background: transparent;
+	outline: none;
+	width: 100%
+	height: 40px;
+	color:  #4dff4d;
+	font-size: 22px;
+	padding: 10px 0;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:  #cc66ff;
+	color: #804000;
+	font-size: 24px;
+	font-family: 'Playfair Display SC', serif;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	background: #ac3973;
+	color: #ff751a;
+}
+.loginbox a{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: coral;
+	font-size: 20px;
+}
+.loginbox a:hover
+{
+	color: #66ccff; 
+}
